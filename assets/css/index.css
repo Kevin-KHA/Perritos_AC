@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+   
+}
+
+.centro
+{
+    margin: 0px auto;
+}
+
+.portada{
+    background: url("../image/fondo2.jpg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
+
+.division1
+{
+    width: 20%;
+}
+.division2
+{
+    border-color: black;
+    width: 80%;
+}
+.division3
+{
+    width: 20%;
+}
+.area
+{
+    display: flex;
+}
+
+body
+{
+    background: url("../image/f5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+
+.primero
+{
+    background: url("../image/11.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    
+    width: 100%; 
+    height: 98vh;
+}

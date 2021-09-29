@@ -1,0 +1,63 @@
+body
+{
+    background-image: url("../image/registro1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-position: center center;
+}
+h2
+{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+.user-img
+{
+    margin-top: -70px;
+    margin-bottom: 35px;
+}
+.user-img img
+{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+.main-section
+{
+    margin: 0 auto;
+    margin-top: 15%;
+    padding: 0;
+}
+
+.modal-content
+{
+    background-color: lightskyblue;
+    opacity: .95;
+}
+
+
+
+.form-group input   
+{
+    margin:0px auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+}
+
+.form-group input:hover
+{
+
+    box-shadow: 1px 1px 10px lightgoldenrodyellow;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/registro.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-12 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img">
+                    <img src="assets/image/perrito.png"  alt=""/>
+                <h2>Formulario de Registro <i class="far fa-calendar-check"></i></h2>
+                </div>
+                <form class="col-12 " >
+                    <div class="form-group" id="user-group">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              Tipo de mascota <i class="fas fa-cat"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Perrito</a></li>
+                              <li><a class="dropdown-item" href="#">Gatito</a></li>
+                            </ul>
+                          </div>    <br><br>
+                          <input type="email" class="form-control" id="raza" aria-describedby="emailHelp" placeholder="Raza de la mascota">
+                        <br>
+                        <input type="email" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Nombre del cliente">
+                        <br>
+                        <input type="email" class="form-control" id="telefono" aria-describedby="emailHelp" placeholder="Teléfono">
+                        <br>
+                          <br>
+                        <div class="container-fluid">
+                            <button type="button" class="btn btn-danger"><a href="index.html" style="color:white;"> <i class="fas fa-window-close"></i> Cancelar</a></button>    
+                            <button type="button" class="btn btn-primary">Guadar registro <i class="fas fa-paw"></i></button>
+                        </div>
+                        <br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+
+    <script type="text/javascript" src="public/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
