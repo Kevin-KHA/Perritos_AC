@@ -19,14 +19,13 @@
                 </div>
                 <form class="col-12 " >
                     <div class="form-group" id="user-group">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                              Tipo de mascota <i class="fas fa-cat"></i>
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Perrito</a></li>
-                              <li><a class="dropdown-item" href="#">Gatito</a></li>
-                            </ul>
+                        <div class="btn-group" id="">
+                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="opciones">
+                                <option selected>Tipo de mascota</option>
+                                <option value="perro">Perrito</option>
+                                <option value="gato">Gatito</option>
+                              </select>
+                            
                           </div>    <br><br>
                           <input type="text" class="form-control" id="raza" aria-describedby="emailHelp" placeholder="Raza de la mascota">
                         <br>

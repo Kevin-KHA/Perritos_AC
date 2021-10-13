@@ -1,20 +1,23 @@
 function enviar_formulario() {
   console.log("error");
+  let opcion = document.getElementById("opciones");
   let raza = document.getElementById("raza");
   let nombre = document.getElementById("nombre");
   let telfono = document.getElementById("telefono");
-  console.log(raza.value + nombre.value + telfono.value);
+  
+  console.log(opcion.value +raza.value + nombre.value + telfono.value);
   if (
     raza.value.length > 0 &&
     nombre.value.length > 0 &&
     telfono.value.length > 0
+    && opcion.value != "Tipo de mascota"
   ) {
     let bodyy = {
       name: nombre.value,
       phone: telfono.value,
       pet: {
         raza: raza.value,
-        tipo: "Perro",
+        tipo: opcion.value,
       },
     };
     axios
@@ -26,5 +29,10 @@ function enviar_formulario() {
         });
       })
       .catch((e) => console.log("error"));
+  }
+
+  else
+  {
+    console.log("chtm produ ouner");
   }
 }
