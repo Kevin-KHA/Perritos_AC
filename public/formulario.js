@@ -1,11 +1,11 @@
 function enviar_formulario() {
-  console.log("error");
+
   let opcion = document.getElementById("opciones");
   let raza = document.getElementById("raza");
   let nombre = document.getElementById("nombre");
   let telfono = document.getElementById("telefono");
   
-  console.log(opcion.value +raza.value + nombre.value + telfono.value);
+ 
   if (
     raza.value.length > 0 &&
     nombre.value.length > 0 &&

@@ -2,7 +2,12 @@ a{
     text-decoration: none;
    
 }
-
+.button-registrar{
+    background-color: yellow;
+    padding: 1rem;
+    color: black;
+    border-radius: 10px;
+}
 .centro
 {
     margin: 0px auto;
