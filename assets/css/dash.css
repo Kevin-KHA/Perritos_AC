@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+.fondo{
+width: 100%;
+}
+.lista{
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}

@@ -21,9 +21,9 @@ function enviar_formulario() {
       },
     };
     axios
-      .post("http://localhost:8010/add_user", bodyy)
+      .post("http://localhost:8080/add_user", bodyy)
       .then((data) => {
-        swal("Correcto", "Se agrego correctamente", "success")
+        swal("Registro completo", ":)", "success")
         .then(data => {
           location.href = "index.html"
         });
