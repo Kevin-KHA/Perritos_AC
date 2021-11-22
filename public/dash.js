@@ -1,4 +1,4 @@
-console.log("peticion")
+console.log("peticion");
 lista();
 function lista(){
     console.log("ryrtrv")
@@ -7,7 +7,6 @@ function lista(){
     .then(response => {
         if(response.data != "ok"){
             for(let i=0; i<response.data.length; i++){
-          
                 let li = document.createElement("li");
                 let div1 = document.createElement("div");
                 let div2 = document.createElement("div");
